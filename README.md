@@ -18,3 +18,5 @@ lesson_{lesson_num}/
 # Rules
 1. No commits to main
 2. No commits to your main "{first_name}_{last_name}", only pull requests
+
+# some changes
