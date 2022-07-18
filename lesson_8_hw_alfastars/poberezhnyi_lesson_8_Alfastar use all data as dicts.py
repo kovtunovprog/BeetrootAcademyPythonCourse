@@ -69,6 +69,6 @@ users_new2 = check_what_data_type_analise(users_)
 print(users_new2)
 
 c = analise_users_dict(users_new2)
-print(users_new2)
+print(users_new2)                      #!!! Питання - Чому саме така поведінка даних users_new2, чому вони змінюються
 print(c)
 question_in_what_type_output(c)
