@@ -1,0 +1,8 @@
+from poberezhni_roman.lesson_9.class_work.update_cheater_balance.check_and_update_cheater_balance_tuple_dicts import \
+    check_user_is_cheater_dicts, update_cheater_balance_tuple_dicts
+from poberezhni_roman.lesson_9.class_work.update_cheater_balance.check_and_update_cheater_balance_tuple_tuples import \
+    check_user_is_cheater_tuples, update_cheater_balance_tuple_tuples
+
+
+
+
