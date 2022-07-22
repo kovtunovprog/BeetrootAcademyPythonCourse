@@ -1,0 +1,2 @@
+import two
+two.foo()
