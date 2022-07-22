@@ -7,6 +7,6 @@ def task2():
 try:
     print(task2())
 except ZeroDivisionError:
-    print('You can\'t divide by zero!')
+    print('You can\'t divide by zero!!')
 except ValueError:
     print('Please enter valid number(s)!')

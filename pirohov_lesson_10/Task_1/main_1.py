@@ -1,17 +1,20 @@
 def oops():
-    raise IndexError
+    raise IndexError('Error i raise in purpose')
+
 
 def catch():
     try:
         oops()
-    except IndexError:
-        print('Error caught in function oops!')
+    except IndexError as err:
+        print(err)
+
 
 catch()
 
 
 def oops2():
-    raise KeyError
+    raise KeyError('Error that will pop up')
+
 
 def catch2():
     try:
