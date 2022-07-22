@@ -1,0 +1,10 @@
+{
+  "users": [
+    {"id": "42452", "name": "Bingo", "balance": "4000", "spent": "5000", "level": "2", "kills": "4"},
+    {"id": "5341", "name": "LacasaDePapel", "balance": "42600", "spent": "97400", "level": "40", "kills": "100"},
+    {"id": "435232353", "name": "Diablo", "balance": "48888", "spent": "0", "level": "3", "kills": "2"},
+    {"id": "424", "name": "Jambo", "balance": "4000", "spent": "24552", "level": "12", "kills": "4"},
+    {"id": "5321", "name": "CoroZi", "balance": "4200", "spent": "1000", "level": "2", "kills": "1"},
+    {"id": "242432", "name": "Raynor", "balance": "720500", "spent": "0", "level": "353", "kills": "440"}
+  ]
+}
