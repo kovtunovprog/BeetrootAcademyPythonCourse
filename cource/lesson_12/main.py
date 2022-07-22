@@ -10,3 +10,7 @@ def main():
     users = parse_users_form_json_file(FILENAME)
     cheaters = find_cheaters(users)
     update_users_balances(cheaters)
+
+
+if __name__ == '__main__':
+    main()
