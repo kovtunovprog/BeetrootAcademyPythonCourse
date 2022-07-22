@@ -1,0 +1,37 @@
+[
+  {
+    "first_name": "test",
+    "last_name": "test too",
+    "full_name": "again test",
+    "telephone": "101010010101",
+    "city": "test city"
+  },
+  {
+    "first_name": "ihor",
+    "last_name": "ihorovich",
+    "full_name": "ihovich",
+    "telephone": "5",
+    "city": "kiyv"
+  },
+  {
+    "first_name": "ivan",
+    "last_name": "ivanov",
+    "full_name": "ivan ivanov",
+    "telephone": "0954075522",
+    "city": "kyiv"
+  },
+  {
+    "first_name": "iren",
+    "last_name": "cherkaska",
+    "full_name": "oliehivna iren cherkaska",
+    "telephone": "0668036028",
+    "city": "dnipro"
+  },
+  {
+    "first_name": "add",
+    "last_name": "adding",
+    "full_name": "add adding",
+    "telephone": "12345678901",
+    "city": "test_add"
+  }
+]
