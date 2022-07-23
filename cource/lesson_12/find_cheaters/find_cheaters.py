@@ -3,7 +3,8 @@ def find_cheaters(users: list) -> list:
         balance_max = (int(i['level']) + int(i['kills'])) * 1000 - int(i['spent'])
         try:
             if int(i['balance']) != balance_max:
-                raise NotImplementedError as err
+                raise NotImplementedError ('NotImplementedError')
         except NotImplementedError:
-            print(err)
+            print('NotImplementedError')
         continue
+
