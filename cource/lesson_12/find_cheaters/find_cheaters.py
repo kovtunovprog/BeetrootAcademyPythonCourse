@@ -2,19 +2,19 @@
 #     raise NotImplementedError
 from poberezhni_roman.lesson_10.cw_10.p import users_3
 
-def check_is_data_correct(users) -> list:
-    users_new = [users[0].keys()]
-    for user in users:
-        # check is user data correct and print result if not
-        try:
-            if len(user.keys()) != len(users_new[0]):
-                raise ValueError(f'Invalid user data: {user}. It not include in analise.\n')
-        except ValueError as v_er:
-            print(ValueError, v_er)
-            continue
-        # create data from dict values for user and add in users_new
-        users_new.append(user)
-    return users_new
+# def check_is_data_correct(users) -> list:
+#     users_new = [users[0].keys()]
+#     for user in users:
+#         # check is user data correct and print result if not
+#         try:
+#             if len(user.keys()) != len(users_new[0]):
+#                 raise ValueError(f'Invalid user data: {user}. It not include in analise.\n')
+#         except ValueError as v_er:
+#             print(ValueError, v_er)
+#             continue
+#         # create data from dict values for user and add in users_new
+#         users_new.append(user)
+#     return users_new
 
 
 def find_user_data_int(user: dict) -> vars:
@@ -43,9 +43,9 @@ def check_is_user_cheater(user) -> bool:
 
 
 def find_cheaters(users_new: list) -> list:
-    users_new = check_is_data_correct(users_new)
+
     cheaters_l = []
-    for user in users_new[1:]:
+    for user in users_new:
         try:
             if check_is_user_cheater(user):
                 raise ValueError(f"Found  cheater: {user['name']}")
