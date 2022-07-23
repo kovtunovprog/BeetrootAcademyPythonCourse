@@ -1,2 +1,5 @@
 def update_users_balances(users: list) -> list:
-    raise NotImplementedError
+    for i in users:
+        if i['balance'] !=
+            # TODO: i['balance'] correct balance
+    return
