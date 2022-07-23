@@ -8,4 +8,3 @@ def find_cheaters(users: list) -> list:
         else:
             print(f'User id:{user["id"]} name: {user["name"]} is not a cheater')
     return cheaters
-
