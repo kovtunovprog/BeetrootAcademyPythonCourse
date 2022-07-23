@@ -1,5 +1,6 @@
 import json
 
+
 def parse_users_form_json_file(filename: str) -> list:
     with open(filename, 'r') as f:
         try:
@@ -9,7 +10,6 @@ def parse_users_form_json_file(filename: str) -> list:
                     raise ValueError('Seems like some keys are missing')
         except TypeError:
             raise TypeError('Seems like your data type is incorrect (Expecting: [{}])')
-
     return users
 
 

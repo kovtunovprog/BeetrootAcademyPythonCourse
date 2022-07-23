@@ -7,14 +7,13 @@ OUTPUT_FILENAME: str = "result.json"
 
 
 def main():
-    users = parse_users_form_json_file(INPUT_FILENAME) # users = [{}]
+    users = parse_users_form_json_file(INPUT_FILENAME)
 
+    cheaters = find_cheaters(users)
 
-    cheaters = find_cheaters(users) # -> [{}]
+    updated_users = update_users_balances(cheaters)
 
-    updated_users = update_users_balances(cheaters) # -> fixed [{}]
-
-    save_users_to_json_file(OUTPUT_FILENAME, updated_users) # fixed [{}] -> json
+    save_users_to_json_file(OUTPUT_FILENAME, updated_users)
 
 
 if __name__ == '__main__':
