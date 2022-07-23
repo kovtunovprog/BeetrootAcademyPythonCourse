@@ -1,5 +1,7 @@
+import json
+
 def parse_users_form_json_file(filename: str) -> list:
-    with open(filename, 'r')
+    with open(filename, 'r') as f:
         try:
             users = json.load(f)['users']
             for i in users:
@@ -12,4 +14,5 @@ def parse_users_form_json_file(filename: str) -> list:
 
 
 def save_users_to_json_file(filename: str, data: list) -> str:
-    raise NotImplementedError
+    with open(filename, 'w') as f:
+        json.dump(data, f)

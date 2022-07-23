@@ -10,7 +10,7 @@ def main():
     users = parse_users_form_json_file(INPUT_FILENAME) # users = [{}]
 
 
-    cheaters = find_cheaters(users) # -> print(err)
+    cheaters = find_cheaters(users) # -> [{}]
 
     updated_users = update_users_balances(cheaters) # -> fixed [{}]
 
