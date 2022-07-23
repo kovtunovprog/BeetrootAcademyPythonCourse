@@ -1,15 +1,16 @@
 from cource.lesson_12.find_cheaters import find_cheaters
 from cource.lesson_12.update_balance import update_users_balances
-from cource.lesson_12.utils import parse_users_form_json_file
+from cource.lesson_12.utils import parse_users_form_json_file, save_users_to_json_file
 
-
-FILENAME: str = ""  # TODO: Set value to run program
+INPUT_FILENAME: str = ""  # TODO: Set value to run program
+OUTPUT_FILENAME: str = "result.json"
 
 
 def main():
-    users = parse_users_form_json_file(FILENAME)
+    users = parse_users_form_json_file(INPUT_FILENAME)
     cheaters = find_cheaters(users)
-    update_users_balances(cheaters)
+    updated_users = update_users_balances(cheaters)
+    save_users_to_json_file(OUTPUT_FILENAME, updated_users)
 
 
 if __name__ == '__main__':

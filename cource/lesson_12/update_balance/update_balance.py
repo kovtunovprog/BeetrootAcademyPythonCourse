@@ -1,2 +1,2 @@
-def update_users_balances(users: list) -> None:
+def update_users_balances(users: list) -> list:
     raise NotImplementedError
